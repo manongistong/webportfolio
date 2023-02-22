@@ -21,18 +21,30 @@ body {
 
 #sidenavbar {
 	padding: 0;
-	background-color: #004d4d;
+	background-color: #0F4D4A;
+
 }
 
 #landingpage {
 
+
+
 	background-image: url("./images/webblack.jpg");
-	 opacity: 0.3;
+	opacity: 0.9;
  	background-color: #cccccc;
 	max-width: 100%;
+	max-height: 100%;
  	background-position: center;
  	background-size: cover;
  	background-repeat: no-repeat, repeat;
+
+}
+
+#h4head {
+
+		font-family: 'Luckiest Guy', cursive;
+		font-size: 100px;
+
 }
 
 #keephidden {
@@ -46,11 +58,12 @@ body {
 }
 
 nav {
-	background-color: darkcyan;
+	background-color: #003333;
+
 }
 
 #maindiv {
-	background-color: darkcyan;
+	background-color: #013220;
 	background-size: cover;
 }
 
@@ -60,7 +73,7 @@ a {
 
 #aboutme {
 	background-color: white;
-	background-image: url("./images/fat.png");
+/*	background-image: url("./images/fat.png");*/
 	background-repeat: no-repeat;
     width:100%;
 
@@ -80,11 +93,13 @@ h4 {
 
 	font-size: 80px;
 
+
 }
 
 #sideabout {
-
+	font-size: 14px;
 	text-align: center;
+	color: whitesmoke;
 }
 
 .card-header {
@@ -98,3 +113,55 @@ h3 {
 
 }
 
+#collapseOne {
+
+	background-color: #16564A;
+	color: lightgrey;
+	
+
+}
+
+#moreaboutme {
+font-family: 'Dancing Script', cursive;
+font-size: 14px;
+
+}
+
+#ABOUTHASH {
+
+/*	writing-mode: vertical-rl;
+  	text-orientation: upright;*/
+  	font-family: 'Holtwood One SC', serif;
+	color: whitesmoke;
+	font-size: 55px;
+
+}
+
+#GALLERYHASH, #CONTACTHASH {
+
+	font-family: 'Luckiest Guy', cursive;
+	padding: 5px;
+	font-size: 55px;
+	color: whitesmoke;
+}
+
+.fa-facebook {
+/*  background: #3B5998;
+  color: white;*/
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-toggler-icon {
+
+	background-image: url("./images/toggle.png");
+
+}
+
+h1 	{
+
+	padding: 0;
+	font-size: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
