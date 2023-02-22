@@ -1,0 +1,86 @@
+#profilepic {
+
+	padding-top: 4px;
+	max-width: 70%;
+	padding-bottom: 8px;
+
+}
+
+* {
+
+		font-family: 'Source Sans Pro', sans-serif;
+	padding: 0;
+
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 0;
+
+}
+
+#sidenavbar {
+	padding: 0;
+	background-color: #001333;
+}
+
+#landingpage {
+
+	background-image: url("./images/webblack.jpg");
+	 opacity: 0.3;
+ 	background-color: #cccccc;
+	max-width: 100%;
+ 	background-position: center;
+ 	background-size: cover;
+ 	background-repeat: no-repeat, repeat;
+}
+
+#keephidden {
+	visibility: hidden;
+}
+
+
+#sendemail {
+
+	background-color: darkcyan;
+}
+
+nav {
+	background-color: darkcyan;
+}
+
+#maindiv {
+	background-color: darkcyan;
+	background-size: cover;
+}
+
+a {
+	color: lightgrey;
+}
+
+#aboutme {
+	background-color: white;
+	background-image: url("./images/fat.png");
+	background-repeat: no-repeat;
+    width:100%;
+
+
+	max-height: 100%;
+	
+}
+
+h4 {
+
+	font-size: 80px;
+
+}
+
+#sideabout {
+
+	text-align: center;
+}
+
+.card-header {
+
+	background-color: #004d4d;
+}
